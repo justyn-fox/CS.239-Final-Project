@@ -1,0 +1,328 @@
+:: StoryTitle
+Intelligent Privacy
+
+
+:: StoryData
+{
+  "ifid": "CA502608-1F5A-403C-9E19-DC05B73DF6D3",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Browse location files {"position":"800,350","size":"100,100"}
+(text-colour:green)[(link:"2023-12-04-08:34")(display:"img1")]
+(text-colour:green)[(link:"2023-12-01-11:36")(display:"img2")]
+(text-colour:green)[(link:"2023-12-02-03:49")(display:"img3")]
+(text-colour:red)[[2023-12-09-16:21->malware]]
+(text-colour:green)[(link:"2023-12-05-22:22")(display:"img4")]
+[[Go back->log into this old computer]] 
+
+
+
+
+:: Charge the guards {"position":"1025,1100","size":"100,100"}
+The rifle guard laid you down like a sack of potatoes. You got the swiss cheese ending!
+[[Opening Scene]]
+
+
+:: Charrrrrrrrrrrrrge the guaaarrrrrds! {"position":"425,1800","size":"100,100"}
+You run out from behind the barricade with a drunken rage, intending to make your last stand one to remember, but you step on your shoelace on the way up, making a tragic fall to a tragic end.
+
+[[Opening Scene]]
+
+
+:: Cork the bottle {"position":"600,200","size":"100,100"}
+Maybe this was the better decision... you have work to do. 
+
+[[Get up and get ready for work]]
+
+
+:: Doctor's Chamber {"position":"700,1250","size":"100,100"}
+The flashing lights you saw were electricity for the mad doctor's machines! He cut you up into many pieces so you could never be found again. You found the paraplegic ending.
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181655281101447278/DALLE_2023-12-05_12.56.01_-_A_dystopian_scene_with_a_slight_green_tint_depicting_a_Snowden-like_figure_in_a_dramatic_and_suspenseful_moment._The_figure_is_under_a_door_with_onl.png?ex=6581d93d&is=656f643d&hm=1f98a3739319b291964a3e5f96d75042cd376e30486be9608dd1a38c6dbddf69&"\>
+[[Opening Scene]] 
+
+
+:: DogFolder {"position":"700,750","size":"100,100"}
+My dogs names are Tico, Taco, Ricky, Rico, and Eduardo. They are all great danes. Except for eduardo, he is a pitbull.
+
+[[Back->Imra Varga's Folder]] 
+
+
+:: Exit {"position":"575,1250","size":"100,100"}
+You found the exit doors! You bust through the doors with as much speed as you can muster. You run back to your vehicle and hit the pedal to the floor. You drive until your car runs out of gas. The CIA hunts you down and eventually eliminates you. You unlocked the false alarm ending. 
+
+[[Opening Scene]]
+
+
+:: FinalStand {"position":"900,1100","size":"100,100"}
+You duck behind a concrete barricade and manage to keep the guards at bay. What do you do now?
+
+[[Reload (You must have extra ammo)->ReloadCheck]]
+[[Charge the guards]]
+[[Check for a secret exit->optimismEnding]]
+
+
+:: Get up and get ready for work {"position":"400,350","size":"100,100"}
+(set: $extra_ammo = true)
+
+As you get out of bed, you're still shaken up from that dream. You put on your hat, strap your .357 to your waist and put on your coat to get ready for the day. 
+
+[[Grab more ammo]]
+[[Head to work]]
+
+
+:: Give up {"position":"575,1800","size":"100,100"}
+You let out a whimper in your stupor and wander out from behind the barricade, attempting to surrender. The rifle guard fires almost immediately. That was your final stand.
+[[Opening Scene]
+
+
+:: Go to office {"position":"550,500","size":"100,100"}
+It's a completely blank office, with one overhead fluorescent light (text-style:"emboss")[piercing your eyes] with just an extremely old pc ontop of a oak desk... stuned this artifact would be here. 
+
+Should I [[log into this old computer]] with my company information and see whats on it?
+
+
+:: Grab bottle of Jacky Dee's {"position":"400,200","size":"100,100"}
+(set: $shots to 0)
+
+That dream was truely terrifiying, maybe a shot of Jack would help...?
+
+[[Take a shot]]
+
+[[Cork the bottle]]
+
+
+:: Grab more ammo {"position":"250,350","size":"100,100"}
+(set: $extra_ammo to true)
+
+Well, I guess six bullets wasn't enough. Lets grab six more. 
+
+[[Head to work]]
+
+
+:: Gunfight {"position":"900,975","size":"100,100"}
+You unload all 6 bullets in the cylinder, and manage to take out 4 of the total 7 guards. Now, there's one guard with a rifle and two guards with tazers. What do you do?
+
+[[Take cover->FinalStand]]
+[[Charge the guards]]
+
+
+:: Hangover ending {"position":"250,50","size":"100,100"}
+(text-style:"blur","fade-in-out")[You got to drunk and blacked out... Congrats you got the alcholic ending... ]
+
+[[Opening Scene]]
+
+
+:: Head to branch manager office {"position":"400,500","size":"100,100"}
+The office is in a new part of the building that has been under development for a while now, everything seems so odd... over in this section of the company...  
+
+As you find the correct office, you walk in to meet Mr. Imre Varga. And he gives you the details to your new position.
+
+This position works in the scope of data collection of hostile foreign suspects that have been flagged by the CIA. 
+
+He assigns you a office just down the hall.
+
+[[Go to office]]
+
+
+:: Head to work {"position":"250,500","size":"100,100"}
+The drive in wasn't horrible, traffic was alright but the rain hasn't stopped since you left the house. The cold chill of the windows remind you of the dream you had... Just need to get to your postion manager to talk about the branch re-location...
+
+[[Head to branch manager office]]
+
+
+:: Imra Varga's Folder {"position":"575,625","size":"100,100"}
+[[Personal Folder! DO NOT ENTER!->RUN]]
+[[Dog pics ->DogFolder]]
+[[Plans->PlanFolder]]
+[[Return->Open strange file on desktop]] 
+
+
+
+:: Josh Jetson's Folder {"position":"825,625","size":"100,100"}
+(enchant:?page,(text-colour:navy))josh jetson was found at the crime scene for (text-colour:black)+(bg:black)[ 9/11] and was a prime conspirator in the (text-colour:black)+(bg:black)[watergate scanda], as well as had many ties to the (text-colour:black)+(bg:black)[nazi regime], being known for commiting cruel acts such as (text-colour:black)+(bg:black)[crime1], (text-colour:black)+(bg:black)[crime2], or (text-colour:black)+(bg:black)[crime3]
+[[Return->Open strange file on desktop]] 
+
+
+:: Keep running {"position":"575,1125","size":"100,100"}
+Ahead you see a fork in the road. On the left, you see flashing lights and shadows moving around, and on right side, you see a glowing ominous red light peering around the corner. Which way do you go? 
+[[go right->Exit]]
+[[go left->Doctor's Chamber]]
+
+
+:: Kevin Bragg's Folder {"position":"700,625","size":"100,100"}
+This folder is empty.
+
+[[Return->Open strange file on desktop]]
+
+
+:: LightweightEnding {"position":"525,1575","size":"100,100"}
+You didn't bring extra ammo, and on top of that, you're loaded on the job! What should you do now?
+
+[[Charrrrrrrrrrrrrge the guaaarrrrrds!]]
+[[Give up]]
+
+
+:: Open strange file on desktop {"position":"700,500","size":"100,100"}
+[[Kevin Bragg's Folder]]
+[[Imra Varga's Folder]]
+[[Josh Jetson's Folder]]
+
+
+
+
+:: Opening Scene {"position":"250,200","size":"100,100"}
+(set: $sober to true)
+(set: $extra_ammo to false)
+
+You're waking up in a cold sweat from a bad dream, it seems to be a recurring theme though. You had a about some conflict with a strange person... it seemed like it's your father but these dreams have been happening for the past year so nothing seems off. 
+
+But it's already 5'oclock, might as well get the day started already since you're getting moved to a different branch in the agency today... 
+
+[[Get up and get ready for work]]
+
+[[Grab bottle of Jacky Dee's]]
+
+
+:: PlanFolder {"position":"450,750","size":"100,100"}
+Thursday - Meet Kathy for dinner
+Friday - Work extra hours in the office
+Saturday - Mike's barbeque
+Sunday - Laundry
+
+[[Back->Imra Varga's Folder]] 
+
+
+:: RUN {"position":"575,750","size":"100,100"}
+
+THE CIA KNOWS YOU'RE HERE. THIS IS A CLASSIFIED DOMAIN. YOU SIGNED AN NDA TO NONDISCLOSE THIS INFORMATION, BUT YOU ALSO HAVE TO FOLLOW OUR ACCESS TERMS! EXPECT IMMEDIATE WORKPLACE TERMINATION
+
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181658603501924513/DALLE_2023-12-05_13.09.17_-_A_first-person_perspective_scene_inspired_by_Quake_4_featuring_a_Snowden-like_character_escaping_an_NSA_facility_without_a_weapon._The_scene_is_se.png?ex=6581dc55&is=656f6755&hm=e47640fb6a9b7235f311b0ace1565cc0bd2c41d890071d7e5a1814868749f5b9&"/>
+
+[[RUN->chaseScene]]
+
+
+:: ReloadCheck {"position":"975,1400","size":"100,100"}
+((if:$extra_ammo is true)[ (if:$sober is true)[(go-to:"goodEnding")](else:[(go-to:"alcoholicEnding")]
+(else-if:$extra_ammo is false)[(if:$sober is false[[(go-to:"LightweightEnding")](else:[(go-to:"noReload")]]
+
+
+
+
+
+
+
+:: Run forward {"position":"575,1000","size":"100,100"}
+[[Keep running]]
+
+
+:: Shot update {"position":"100,50","size":"100,100"}
+(go-to: "Take another shot"))
+
+
+:: Stand your ground {"position":"700,1000","size":"100,100"}
+You turn on the faculty and staff that have betrayed you. There's only one thing left to do that'll get you out of here!
+[[Pull out the revolver->Gunfight]]
+
+
+:: Start {"position":"100,200","size":"100,100"}
+## Welcome to our create your own adventure game! 
+
+### This game will focus on the concept of Privacy Issues.
+
+To set the stage, you'll be playing as the character Kaahb Reevus. He has a family history in the government and respects his line of work as a intelligence consultant for the NSA. He has previously done contracts for the CIA under the scope of data tracking. Kaahb has just recieved an opening into a new department for an off-the-grid contract. 
+
+Travel his desicions to find your adventure. 
+
+[[Opening Scene]]
+
+
+:: Take a shot {"position":"400,50","size":"100,100"}
+(set: $shots to $shots + 1)
+(set: $sober to false)
+(text-style:"blur","expand","sway")[Smoooooth... with a subtle burn... that'll do the trick]
+
+[[Take another shot]]
+
+
+:: Take another shot {"position":"550,50","size":"100,100"}
+(set: $shots to $shots + 1)
+
+You took another shot. You have taken $shots shots. 
+ 
+(link: "Take a shot")[
+
+(if: $shots is >= 6) [(go-to: "Hangover ending")]
+
+(go-to: "Shot update")]
+
+[[Cork the bottle]]
+
+
+:: alcoholicEnding {"position":"375,1575","size":"100,100"}
+You fumble over the revolver but manage to jam every bullet into the cylinder. You fire off two shots, somehow managing to take out the final guard with the rifle. Unfortunately for you, you didn't realize that the third bullet you slammed into the gun was placed backwards. The gun misfires and you lose your dominant hand. The tazer guards subdue you. CIA decides that you're the prime subject for their next war machine study. Fast forawrd 1000 years and you're now in the war to end all wars.
+
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181661665964601395/DALLE_2023-12-05_13.20.44_-_A_highly_realistic_and_beautifully_detailed_first-person_perspective_scene_inspired_by_the_Halo_video_game_series._The_characters_weapon_is_positio.png?ex=6581df2f&is=656f6a2f&hm=c638039d297671f28e12502b52d517606036a4cdf830a700eb2af5156d6306ca&"\>
+
+[[Opening Scene]]
+
+
+:: chaseScene {"position":"575,875","size":"100,100"}
+You're being chased by many guards and faculty armed with tazers and a few rifles.
+[[Run forward]]
+[[Stand your ground]]
+
+
+
+:: goodEnding {"position":"825,1450","size":"100,100"}
+You reload your weapon with lightning speed and accuracy and take down all 3 remaining guards. You then peruse the facility at your leisure until you find an exit. Without any witnesses and no camera feed (you cleared it), you have nothing to prove that you even went into work today. You can spend all the time you'd like at your sweet new vacation home with your new job salary.
+
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181644470190604288/DALLE_2023-12-05_12.12.55_-_This_scene_portrays_the_Snowden-like_figure_vacationing_on_a_beautiful_vibrant_island_with_a_clear_blue_sky_and_a_picturesque_beach._He_is_relaxed_.png?ex=6581cf2b&is=656f5a2b&hm=795f4b77dd52e0109377ccb3e2df2d92a360bbabef748afcd140de511b652b24&"\>
+
+[[Opening Scene]] 
+
+
+:: img1 {"position":"800,100","size":"100,100"}
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181640476605034506/DALLE_2023-12-05_11.57.04_-_A_dystopian_and_foreboding_artistic_rendering_of_the_National_Security_Agency_NSA_headquarters_in_Fort_Meade_Maryland_with_a_slight_green_tint_to_.png?ex=6581cb73&is=656f5673&hm=6e89df70ea5617be8f3897842efcb32934a1fe12585abd353bc0ac07de847e8d&"\>
+
+
+:: img2 {"position":"900,100","size":"100,100"}
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181659372397535344/DALLE_2023-12-05_13.12.11_-_A_first-person_perspective_scene_showing_the_hands_of_a_Snowden-like_character_holding_a_broken_mirror_reflecting_his_own_face._The_setting_is_a_dyst.png?ex=6581dd0c&is=656f680c&hm=885621594d7a4acd6a65154e5f6c0971f7a97d6cfe4ac17fdab4edca8f048b1c&"\>
+
+
+:: img3 {"position":"1000,100","size":"100,100"}
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181642534817112085/DALLE_2023-12-05_12.05.25_-_In_a_dystopian_setting_with_a_slight_green_tint_this_scene_captures_a_Snowden-like_figure_experiencing_a_dream._He_is_in_a_pod_similar_to_those_in_T.png?ex=6581cd5e&is=656f585e&hm=0420f713592971b3ab48e95574d26d36f176755b63c4809bf27ade7312c211f5&"\>
+
+
+:: img4 {"position":"800,200","size":"100,100"}
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181652541507911750/DALLE_2023-12-05_12.45.10_-_A_somber_and_respectful_portrayal_of_a_Snowden-like_figure_depicted_as_a_torso_without_legs_in_a_dystopian_setting._This_image_emphasizes_inclusivit.png?ex=6581d6af&is=656f61af&hm=7d37de83f8618b57f910a1d3a2faf7c1353692627cdea7899a2a2be677f0ab4e&"\>
+
+
+:: log into this old computer {"position":"550,350","size":"100,100"}
+Strange... all your information works on this computer. You should explore this computer right...? 
+[[Browse location files]]
+[[Open strange file on desktop]]
+
+
+:: malware {"position":"900,200","size":"100,100"}
+Oh no! you got the malware ending! This computer didn't have any malware protection software and now this pc has been taken over! The lack of computer privacy protection allowed for all the important government files to be leaked! Next time, make sure you're using safe internet practices and only opening safe and user trusted files!
+
+[[Opening Scene]]
+
+
+:: noReload {"position":"1175,1325","size":"100,100"}
+You didn't have any extra ammo. What now?
+
+
+[[Charge the guards]]
+[[Check for a secret exit->optimismEnding]]
+
+
+:: optimismEnding {"position":"1025,1225","size":"100,100"}
+You looked for a secret exit, but didn't find one. The guards rushed you, tazed you, and you were taken to CIA headquarters for on-site termination. You unlocked the helpless optimist ending.
+
+<img src="https://cdn.discordapp.com/attachments/1181637330323386390/1181645567496040598/DALLE_2023-12-05_12.17.19_-_A_dramatic_and_intense_scene_depicting_the_Snowden-like_figure_in_a_challenging_and_dire_situation_symbolically_representing_his_capture_with_a_slig.png?ex=6581d031&is=656f5b31&hm=2eced06aa6a599534cf272fa3925dcc7b5e500e4bef8cc59c8a9a3637e3b68a7&"\>
